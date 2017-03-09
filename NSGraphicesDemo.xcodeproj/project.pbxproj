@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1823699118876D21004587E3 /* FSNSView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1823699018876D21004587E3 /* FSNSView.m */; };
+		18416FA7188693950005ED0E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18416FA6188693950005ED0E /* Cocoa.framework */; };
+		18416FB1188693950005ED0E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18416FAF188693950005ED0E /* InfoPlist.strings */; };
+		18416FB3188693950005ED0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18416FB2188693950005ED0E /* main.m */; };
+		18416FB7188693950005ED0E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 18416FB5188693950005ED0E /* Credits.rtf */; };
+		18416FBA188693960005ED0E /* FSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18416FB9188693960005ED0E /* FSAppDelegate.m */; };
+		18416FBD188693960005ED0E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18416FBB188693960005ED0E /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1823698F18876D21004587E3 /* FSNSView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSNSView.h; sourceTree = "<group>"; };
+		1823699018876D21004587E3 /* FSNSView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSNSView.m; sourceTree = "<group>"; };
+		18416FA3188693940005ED0E /* NSGraphicesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSGraphicesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18416FA6188693950005ED0E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		18416FA9188693950005ED0E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		18416FAA188693950005ED0E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		18416FAB188693950005ED0E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18416FAE188693950005ED0E /* NSGraphicesDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSGraphicesDemo-Info.plist"; sourceTree = "<group>"; };
+		18416FB0188693950005ED0E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18416FB2188693950005ED0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18416FB4188693950005ED0E /* NSGraphicesDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSGraphicesDemo-Prefix.pch"; sourceTree = "<group>"; };
+		18416FB6188693950005ED0E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		18416FB8188693950005ED0E /* FSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSAppDelegate.h; sourceTree = "<group>"; };
+		18416FB9188693960005ED0E /* FSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSAppDelegate.m; sourceTree = "<group>"; };
+		18416FBC188693960005ED0E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18416FA0188693940005ED0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18416FA7188693950005ED0E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18416F9A188693940005ED0E = {
+			isa = PBXGroup;
+			children = (
+				18416FAC188693950005ED0E /* NSGraphicesDemo */,
+				18416FA5188693950005ED0E /* Frameworks */,
+				18416FA4188693950005ED0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18416FA4188693950005ED0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18416FA3188693940005ED0E /* NSGraphicesDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18416FA5188693950005ED0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18416FA6188693950005ED0E /* Cocoa.framework */,
+				18416FA8188693950005ED0E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18416FA8188693950005ED0E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18416FA9188693950005ED0E /* AppKit.framework */,
+				18416FAA188693950005ED0E /* CoreData.framework */,
+				18416FAB188693950005ED0E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		18416FAC188693950005ED0E /* NSGraphicesDemo */ = {
+			isa = PBXGroup;
+			children = (
+				18416FB8188693950005ED0E /* FSAppDelegate.h */,
+				18416FB9188693960005ED0E /* FSAppDelegate.m */,
+				18416FBB188693960005ED0E /* MainMenu.xib */,
+				18416FAD188693950005ED0E /* Supporting Files */,
+				1823698F18876D21004587E3 /* FSNSView.h */,
+				1823699018876D21004587E3 /* FSNSView.m */,
+			);
+			path = NSGraphicesDemo;
+			sourceTree = "<group>";
+		};
+		18416FAD188693950005ED0E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18416FAE188693950005ED0E /* NSGraphicesDemo-Info.plist */,
+				18416FAF188693950005ED0E /* InfoPlist.strings */,
+				18416FB2188693950005ED0E /* main.m */,
+				18416FB4188693950005ED0E /* NSGraphicesDemo-Prefix.pch */,
+				18416FB5188693950005ED0E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18416FA2188693940005ED0E /* NSGraphicesDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18416FC0188693960005ED0E /* Build configuration list for PBXNativeTarget "NSGraphicesDemo" */;
+			buildPhases = (
+				18416F9F188693940005ED0E /* Sources */,
+				18416FA0188693940005ED0E /* Frameworks */,
+				18416FA1188693940005ED0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSGraphicesDemo;
+			productName = NSGraphicesDemo;
+			productReference = 18416FA3188693940005ED0E /* NSGraphicesDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18416F9B188693940005ED0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FS;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = fengsh;
+			};
+			buildConfigurationList = 18416F9E188693940005ED0E /* Build configuration list for PBXProject "NSGraphicesDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18416F9A188693940005ED0E;
+			productRefGroup = 18416FA4188693950005ED0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18416FA2188693940005ED0E /* NSGraphicesDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18416FA1188693940005ED0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18416FB1188693950005ED0E /* InfoPlist.strings in Resources */,
+				18416FB7188693950005ED0E /* Credits.rtf in Resources */,
+				18416FBD188693960005ED0E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18416F9F188693940005ED0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18416FB3188693950005ED0E /* main.m in Sources */,
+				18416FBA188693960005ED0E /* FSAppDelegate.m in Sources */,
+				1823699118876D21004587E3 /* FSNSView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18416FAF188693950005ED0E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18416FB0188693950005ED0E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18416FB5188693950005ED0E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18416FB6188693950005ED0E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		18416FBB188693960005ED0E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18416FBC188693960005ED0E /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18416FBE188693960005ED0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		18416FBF188693960005ED0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		18416FC1188693960005ED0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSGraphicesDemo/NSGraphicesDemo-Prefix.pch";
+				INFOPLIST_FILE = "NSGraphicesDemo/NSGraphicesDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18416FC2188693960005ED0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSGraphicesDemo/NSGraphicesDemo-Prefix.pch";
+				INFOPLIST_FILE = "NSGraphicesDemo/NSGraphicesDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18416F9E188693940005ED0E /* Build configuration list for PBXProject "NSGraphicesDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18416FBE188693960005ED0E /* Debug */,
+				18416FBF188693960005ED0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18416FC0188693960005ED0E /* Build configuration list for PBXNativeTarget "NSGraphicesDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18416FC1188693960005ED0E /* Debug */,
+				18416FC2188693960005ED0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18416F9B188693940005ED0E /* Project object */;
+}
